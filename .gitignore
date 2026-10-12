@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+secrets*.yaml
+secrets*.yml
+
+# Private runtime data and generated artifacts
+logs/
+*.log
+checkpoints/
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.DS_Store
